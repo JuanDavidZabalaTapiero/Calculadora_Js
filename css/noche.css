@@ -1,0 +1,58 @@
+/* Versión de noche */
+body.night-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+body.night-mode #cont-general {
+    background-color: #333;
+}
+body.night-mode #cont-calculadora{
+    background: linear-gradient(145deg, #1d1d1d, #222222);
+    box-shadow:  50px 50px 100px #0d0d0d,
+             -50px -50px 100px #333333;
+}
+body.night-mode #cont-escritura input{
+    background: #202020;
+    box-shadow: inset 13px 13px 26px #0d0d0d,
+            inset -13px -13px 26px #333333;
+    color: white;
+}
+body.night-mode .btn {
+    color: white;
+    background: #202020;
+    box-shadow: inset -5px -5px 10px #0d0d0d,
+            inset 5px 5px 10px #333333;
+}
+
+body.night-mode .btn:active{
+    background: linear-gradient(315deg, #1d1d1d, #222222);
+    box-shadow:  -5px -5px 10px #0d0d0d,
+             5px 5px 10px #333333;
+}
+
+body.night-mode .btn.lat {
+    color: orange;
+    background: #202020;
+    box-shadow: inset -5px -5px 10px #0d0d0d,
+            inset 5px 5px 10px #333333;
+}
+
+body.night-mode .btn.lat:active{
+    background: linear-gradient(315deg, #1d1d1d, #222222);
+    box-shadow:  -5px -5px 10px #0d0d0d,
+             5px 5px 10px #333333;
+}
+
+body.night-mode .btn.doble{
+    background: #202020;
+    box-shadow: inset -5px -5px 10px #0d0d0d,
+            inset 5px 5px 10px #333333;
+    color: #fff;
+}
+
+body.night-mode .btn.doble:active{
+    background: linear-gradient(315deg, #1d1d1d, #222222);
+    box-shadow:  -5px -5px 10px #0d0d0d,
+             5px 5px 10px #333333;
+}
